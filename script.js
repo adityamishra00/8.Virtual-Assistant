@@ -47,8 +47,13 @@ function takeCommand(message){
         speak("hello sir,what can i help you?")
     }
     else if(message.includes("who are you")){speak("i am virtual assistant ,created by Aditya Sir")
-         }else if(message.includes("who is Abhishek Kumar Mishra")){speak("he is brothar of Aditya")
+         }else if(message.includes("who is purva")){speak("Purva is an incredibly beautiful girl, with a charm that lights up every room she enters.")
          }
+         else if(message.includes("tell something about purva")){speak("Purva shines like the morning sun, her presence warm and full of grace. Her smile is like a gentle breeze, lifting spirits and brightening even the darkest of days")
+         }
+        else if(message.includes("what is the age of purva")){speak("At just 17, Purva carries the elegance of a queen, her beauty and grace far beyond her years.")}
+        else if(message.includes("where is purva from")){speak("she is from bhadgaon ")}
+
         else if(message.includes("who is aditya sir")){speak("Aditya Kumar Mishra, also known as Aditya Sir, is an exceptionally talented web developer and one of the best in the field. His expertise in modern technologies and innovative problem-solving skills set him apart, making him highly respected in the tech community")
          }
         else if(message.includes("open youtube")){
